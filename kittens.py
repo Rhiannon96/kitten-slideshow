@@ -3,7 +3,7 @@
 import pyglet
 window = pyglet.window.Window(fullscreen=True)
 #window.set_size(1920, 1080)
-pyglet.resource.path = ['/home/npdtv/kittens/']
+pyglet.resource.path = ['/']
 
 s1 = pyglet.resource.image('kitten1.jpeg')
 s2 = pyglet.resource.image('kitten2.jpeg')
